@@ -1,0 +1,214 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1a1e24;
+}
+.box {
+	width: 500px;
+	height: 80px;
+	border-radius: 10px;
+	/*background-color: #d9dbe0;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.social {
+	background-color: #1a1e24;
+	width: 60px;
+	height: 60px;
+	/*border-radius: 15px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+i {
+	font-size: 20px;
+}
+
+/*Cover*/
+
+.cover {
+	position: relative;
+}
+
+ .cover:hover i {
+ 	z-index: 5;
+ }
+
+/*FaceBook*/
+
+.cover-facebook {
+	overflow: hidden;
+	/*border-radius: 15px;*/
+	background-color: #395693;
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 0;
+	transition: .3s;
+	opacity: 0.3;
+}
+
+.cover:hover .cover-facebook {
+	top: 0;
+	height: 100%;
+	opacity: 1;
+}
+.cover:hover .fa-facebook-f {
+	color: white;
+	font-size: 27px;
+}
+
+.fa-facebook-f {
+	color: #395693;
+}
+
+/*Twitter*/
+
+.cover-twitter {
+	overflow: hidden;
+	/*border-radius: 15px;*/
+	background-color: #1c9cea;
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 0;
+	transition: .3s;
+	opacity: 0.3;
+}
+
+.cover:hover .cover-twitter {
+	top: 0;
+	height: 100%;
+	opacity: 1;
+}
+.cover:hover .fa-twitter {
+	color: white;
+	font-size: 27px;
+}
+
+.fa-twitter {
+	color: #1c9cea;
+}
+
+/*Google*/
+.cover-google {
+	overflow: hidden;
+	/*border-radius: 15px;*/
+	background-color: #e34133;
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 0;
+	transition: .3s;
+	opacity: 0.3;
+}
+
+.cover:hover .cover-google {
+	top: 0;
+	height: 100%;
+	opacity: 1;
+}
+.cover:hover .fa-google {
+	color: white;
+	font-size: 27px;
+}
+
+.fa-google {
+	color: #e34133;
+}
+
+/*Tik Tok*/
+.cover-tiktok {
+	overflow: hidden;
+	/*border-radius: 15px;*/
+	background-color: #000000;
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 0;
+	transition: .3s;
+	opacity: 0.3;
+}
+
+.cover:hover .cover-tiktok {
+	top: 0;
+	height: 100%;
+	opacity: 1;
+}
+.cover:hover .fa-tiktok {
+	color: white;
+	font-size: 27px;
+}
+
+.fa-tiktok {
+	color: #000000;
+}
+
+/*Skype*/
+.cover-skype {
+	overflow: hidden;
+	/*border-radius: 15px;*/
+	background-color: #00aae8;
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 0;
+	transition: .3s;
+	opacity: 0.3;
+}
+
+.cover:hover .cover-skype {
+	top: 0;
+	height: 100%;
+	opacity: 1;
+}
+.cover:hover .fa-skype {
+	color: white;
+	font-size: 27px;
+}
+
+.fa-skype {
+	color: #00aae8;
+}
+
+/*Home*/
+
+
+.fa-house-user {
+	color: #5b7aaf;
+	margin: 50px;
+	font-size: 24px;
+}
+
+.fa-house-user:hover {
+	transform: scale(2);
+	color: #4792e6;
+
+}
+
